@@ -1,0 +1,55 @@
+{
+  "col_mappings": {
+    "incident_state": {
+      "New": 0,
+      "Active": 1,
+      "Awaiting User Info": 2,
+      "Awaiting Problem": 3,
+      "Awaiting Vendor": 4,
+      "Awaiting Evidence": 5,
+      "Resolved": 6,
+      "Closed": 7,
+      "-100": 8
+    },
+    "contact_type": {
+      "Phone": 0,
+      "Email": 1,
+      "Self service": 2,
+      "Direct opening": 3,
+      "IVR": 4
+    },
+    "notify": {
+      "Do Not Notify": 0,
+      "Send Email": 1
+    }
+  },
+  "numval_cols": [
+    "location",
+    "category",
+    "subcategory",
+    "u_symptom",
+    "cmdb_ci",
+    "impact",
+    "urgency",
+    "priority",
+    "assignment_group",
+    "problem_id",
+    "rfc",
+    "caused_by",
+    "closed_code",
+    "vendor",
+    "assigned_to",
+    "caller_id",
+    "opened_by",
+    "resolved_by",
+    "sys_created_by",
+    "sys_updated_by"
+  ],
+  "datetime_cols": [
+    "closed_at",
+    "opened_at",
+    "resolved_at",
+    "sys_created_at",
+    "sys_updated_at"
+  ]
+}
